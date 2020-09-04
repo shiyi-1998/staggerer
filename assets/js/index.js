@@ -1,8 +1,8 @@
 $(function(){
     // 调用 getUserInfo 获取用户基本信息
     getUserInfo()
-    var layer = layui.layer
-    $('#btnLogout').on('click',function(e){
+    // var layer = layui.layer
+    $('#btnLogout').on('click',function(){
         layer.confirm('确定退出登录?', {icon: 3, title:'提示'}, function(index){
             // do something
             
